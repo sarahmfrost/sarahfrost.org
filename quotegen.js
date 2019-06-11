@@ -1,16 +1,13 @@
 function quoteGen() {
 
 quotes = [
-      'Don Pedro from his shirt has washed the fleas',
-      'The wild horse champs the Parthenon\'s top frieze',
-      'At snuff no Cornish sailorman would sneeze',
-      'At five precisely out went La Marquise',
-      'From playboy Chance the nymph no longer flees',
-      'He bent right down to pick up his valise',
-      'When one with t\'other straightaway agrees',
-      'Prose took the minstrel\'s verse without a squeeze',
-      'The acid tongue with gourmet\'s expertise',
-      'The marble tomb gapes wide with jangling keys'
+      'East is East, and West is San Francisco, according to Californians. Californians are a race of people; they are not merely inhabitants of a state. - O. Henry',
+      'So we beat on, boats against the current, borne back ceaselessly into the past. — F. Scott Fitzgerald',
+      'I must go down to the seas again, to the lonely sea and the sky, And all I ask is a tall ship and a star to steer her by. — John Masefield',
+      'I claim that a new regime of technologies for holding and shaping past experience has been developed through a process I call databasing the world. — Geoffrey Bowker',
+      'The programmer designs the language that creates the world in which the user operates. — Winograd and Flores',
+      'We shape our tools, and thereafter our tools shape us. — Marshall McLuhan',
+      'So much universe, and so little time. —Terry Pratchett',
       ],
 
 
