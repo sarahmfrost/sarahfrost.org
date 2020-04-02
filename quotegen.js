@@ -10,15 +10,10 @@ quotes = [
       'So much universe, and so little time. —Terry Pratchett',
       ],
 
-
-
-//for (i = 0; i < quotes.length; i++){
   ranNum = [Math.floor(Math.random() * quotes.length)];
 
   chosenQuote = quotes[ranNum]+ '<br>';
 
-//  };
-
-    document.getElementById('quoteDisplay').innerHTML = '<div class="inner">'+ chosenQuote;
+  document.getElementById('quoteDisplay').innerHTML = '<div class="inner">'+ chosenQuote;
 
 }
