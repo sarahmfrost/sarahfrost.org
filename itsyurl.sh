@@ -24,7 +24,7 @@ echo "<!DOCTYPE html>
   <title>Redirect</title>
 </head>
 <body>
-<meta http-equiv='Refresh' content='0; url='$website_redirect/>
+<meta http-equiv='Refresh' content='0; url='$website_redirect''/>
     </body>
 </html>" >> $alias.txt
 
