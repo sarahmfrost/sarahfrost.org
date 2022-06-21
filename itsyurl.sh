@@ -10,11 +10,11 @@ echo "Enter the alias"
 
 read alias
 
-#echo "Enter the website to redirect to"
+echo "Enter the website to redirect to"
 
-#read website_redirect
+read website_redirect
 
-#echo "yourwebsite.com/$alias will redirect to $website_redirect"
+echo "yourwebsite.com/$alias will redirect to $website_redirect"
 
 touch $alias.txt
 
@@ -24,7 +24,7 @@ echo "<!DOCTYPE html>
   <title>Redirect</title>
 </head>
 <body>
-
+<meta http-equiv='Refresh' content='0; url='$website_redirect''/>
     </body>
 </html>" >> $alias.txt
 
