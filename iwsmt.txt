@@ -4,6 +4,6 @@
   <title>Redirect</title>
 </head>
 <body>
-<meta http-equiv='Refresh' content='0; url='http://wwww.iwastesomuchtime.com''/>
+<meta http-equiv='Refresh' content=&quot;0; url='http://wwww.iwastesomuchtime.com'&quot;/>
     </body>
 </html>
