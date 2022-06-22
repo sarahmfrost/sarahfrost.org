@@ -1,9 +1,11 @@
 #! /bin/sh
 
-#write some code
-#For executing the script type bash filename.sh.
 
-#vi <new redirect name>.html
+#Prereq:
+#1. git installed
+#2. Github pages site
+#3. Github personal access token link here:
+
 echo "Running itsy URL script..."
 
 echo "Enter the alias"
