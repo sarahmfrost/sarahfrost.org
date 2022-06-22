@@ -31,7 +31,7 @@ echo "<!DOCTYPE html>
 
 git add .
 
-git commit -a -m 'Added Redirect to + url'
+git commit -a -m 'Added Redirect to $website_redirect'
 
 git push https://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@github.com/sarahmfrost/sarahfrost.org.git
 
