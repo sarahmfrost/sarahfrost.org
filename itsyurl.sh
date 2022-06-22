@@ -16,7 +16,7 @@ read website_redirect
 
 echo "yourwebsite.com/$alias will redirect to $website_redirect"
 
-touch $alias.txt
+touch $alias.html
 
 echo "<!DOCTYPE html>
 <html>
@@ -24,16 +24,15 @@ echo "<!DOCTYPE html>
   <title>Redirect</title>
 </head>
 <body>
-<meta http-equiv='Refresh' content='0; url='$website_redirect''/>
-    </body>
-</html>" >> $alias.txt
-
+<meta http-equiv='Refresh' content=\"0; url='$website_redirect'\"/>
+  </body>
+</html>" > $alias.html
 
 
 git add .
 
 git commit -a -m 'Added Redirect to + url'
 
-git push https://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@github.com/sarahmfrost/sarahfrost.org.git
+git push https://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@github.com/sarahmfrost/sarahfrost.org.git
 
 echo "Done - check your desktop"
