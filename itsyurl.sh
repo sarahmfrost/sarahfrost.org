@@ -35,6 +35,6 @@ git add .
 
 git commit -a -m 'Added Redirect to $website_redirect'
 
-git push https://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github.com/sarahmfrost/sarahfrost.org.git
+git push https://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@github.com/sarahmfrost/sarahfrost.org.git
 
 echo "Done - check your desktop"
