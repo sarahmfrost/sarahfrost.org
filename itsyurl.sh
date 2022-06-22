@@ -4,7 +4,10 @@
 #Prereq:
 #1. git installed
 #2. Github pages site
-#3. Github personal access token link here:
+#3. Github personal access token link here: http://www.sarahfrost.org/token
+
+
+
 
 echo "Running itsy URL script..."
 
@@ -33,7 +36,7 @@ echo "<!DOCTYPE html>
 
 git add .
 
-git commit -a -m 'Added Redirect to $website_redirect'
+git commit -a -m 'Added Redirect'
 
 git push https://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@github.com/sarahmfrost/sarahfrost.org.git
 
